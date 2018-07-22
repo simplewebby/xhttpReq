@@ -1,0 +1,21 @@
+#demo{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    grid-template-rows: minmax(100px);
+    align-items: center;
+    text-align: center;
+    
+}
+.container {
+    max-width: 800px;
+    margin: auto;
+
+}
+#btn {
+    
+    padding: 1rem;
+    color: rgb(60, 125, 125);
+    background: #fff;
+    border: rgb(60, 125, 125) solid 3px;
+    border-radius: 50%;
+}
